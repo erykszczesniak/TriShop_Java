@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status badge — iOS OrderCell: status color @ 15% alpha fill, radius 10.
+     Base is white; the adapter tints it per status. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/white" />
+    <corners android:radius="10dp" />
+</shape>

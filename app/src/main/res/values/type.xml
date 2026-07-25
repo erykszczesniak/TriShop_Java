@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TriShop type system, mirroring iOS AppTypography.
+     Archivo for display/UI, IBM Plex Mono for micro-labels and data (prices,
+     kickers, badges, counters, order IDs). Specific TTF weights are referenced
+     directly so the correct face renders on every API level. -->
+<resources>
+
+    <!-- ===================== Archivo (display / body) ===================== -->
+
+    <!-- Wordmark — Black 30 -->
+    <style name="TextAppearance.TriShop.Logo" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/archivo_black</item>
+        <item name="fontFamily">@font/archivo_black</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <!-- Screen titles ("Bag", "Search") — Black 28 -->
+    <style name="TextAppearance.TriShop.Display" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:fontFamily">@font/archivo_black</item>
+        <item name="fontFamily">@font/archivo_black</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+    </style>
+
+    <!-- Hero / PDP product titles — ExtraBold 26 -->
+    <style name="TextAppearance.TriShop.Hero" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/archivo_extrabold</item>
+        <item name="fontFamily">@font/archivo_extrabold</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:letterSpacing">-0.019</item>
+    </style>
+
+    <!-- Title2 (sheet titles, cart total) — ExtraBold 22 -->
+    <style name="TextAppearance.TriShop.Title2" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">@font/archivo_extrabold</item>
+        <item name="fontFamily">@font/archivo_extrabold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:letterSpacing">-0.018</item>
+    </style>
+
+    <!-- Large price (PDP / checkout) — ExtraBold 24 -->
+    <style name="TextAppearance.TriShop.Price" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:fontFamily">@font/archivo_extrabold</item>
+        <item name="fontFamily">@font/archivo_extrabold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Section headers ("New arrivals") — ExtraBold 18 -->
+    <style name="TextAppearance.TriShop.Section" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/archivo_extrabold</item>
+        <item name="fontFamily">@font/archivo_extrabold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">-0.017</item>
+    </style>
+
+    <!-- Emphasized UI text / list names — Bold 16 -->
+    <style name="TextAppearance.TriShop.Headline" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:fontFamily">@font/archivo_bold</item>
+        <item name="fontFamily">@font/archivo_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Primary CTA label — ExtraBold 16 -->
+    <style name="TextAppearance.TriShop.Button" parent="TextAppearance.Material3.LabelLarge">
+        <item name="android:fontFamily">@font/archivo_extrabold</item>
+        <item name="fontFamily">@font/archivo_extrabold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Compact button / chip label — Bold 13 -->
+    <style name="TextAppearance.TriShop.ButtonSmall" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/archivo_bold</item>
+        <item name="fontFamily">@font/archivo_bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Card titles — Bold 14 -->
+    <style name="TextAppearance.TriShop.Card" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:fontFamily">@font/archivo_bold</item>
+        <item name="fontFamily">@font/archivo_bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Body — Medium 15 -->
+    <style name="TextAppearance.TriShop.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/archivo_medium</item>
+        <item name="fontFamily">@font/archivo_medium</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <!-- Subheadline — Medium 14 -->
+    <style name="TextAppearance.TriShop.Subheadline" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">@font/archivo_medium</item>
+        <item name="fontFamily">@font/archivo_medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- ===================== IBM Plex Mono (data / micro-labels) ===================== -->
+
+    <!-- Data captions (prices, counters) — 12 Medium -->
+    <style name="TextAppearance.TriShop.Mono.Caption" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/ibmplexmono_medium</item>
+        <item name="fontFamily">@font/ibmplexmono_medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Fine print — 10 Medium -->
+    <style name="TextAppearance.TriShop.Mono.Caption2" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/ibmplexmono_medium</item>
+        <item name="fontFamily">@font/ibmplexmono_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Badges / kickers over titles — 9 SemiBold, uppercase, wide tracking -->
+    <style name="TextAppearance.TriShop.Mono.Badge" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/ibmplexmono_semibold</item>
+        <item name="fontFamily">@font/ibmplexmono_semibold</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:letterSpacing">0.14</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Micro kicker over titles ("Swim · Bike · Run") — 9 Medium, mixed case -->
+    <style name="TextAppearance.TriShop.Mono.Kicker" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/ibmplexmono_medium</item>
+        <item name="fontFamily">@font/ibmplexmono_medium</item>
+        <item name="android:textSize">9sp</item>
+        <item name="android:letterSpacing">0.18</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Mono section header ("APPEARANCE", "RECENT SEARCHES") — 10 Medium, uppercase -->
+    <style name="TextAppearance.TriShop.Mono.Header" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/ibmplexmono_medium</item>
+        <item name="fontFamily">@font/ibmplexmono_medium</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:letterSpacing">0.14</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Tab dock labels — 8 Medium, uppercase -->
+    <style name="TextAppearance.TriShop.Mono.TabLabel" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/ibmplexmono_medium</item>
+        <item name="fontFamily">@font/ibmplexmono_medium</item>
+        <item name="android:textSize">8sp</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Card price — 12 SemiBold -->
+    <style name="TextAppearance.TriShop.Mono.PriceValue" parent="TextAppearance.Material3.LabelMedium">
+        <item name="android:fontFamily">@font/ibmplexmono_semibold</item>
+        <item name="fontFamily">@font/ibmplexmono_semibold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- Secondary price (struck-through, per-unit) — 11 Medium -->
+    <style name="TextAppearance.TriShop.Mono.PriceSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="android:fontFamily">@font/ibmplexmono_medium</item>
+        <item name="fontFamily">@font/ibmplexmono_medium</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <!-- ===================== Shape appearances ===================== -->
+
+    <style name="ShapeAppearance.TriShop.Input" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_input</item>
+    </style>
+
+    <style name="ShapeAppearance.TriShop.Card" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_card</item>
+    </style>
+
+    <style name="ShapeAppearance.TriShop.Hero" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_hero</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.TriShop.Pill" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- ===================== Component styles ===================== -->
+
+    <!-- Primary CTA — iOS AccentPillButton: accent fill, full pill, ExtraBold 16, 54dp. -->
+    <style name="Widget.TriShop.Button.Pill" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/neutral_0</item>
+        <item name="iconTint">@color/neutral_0</item>
+        <item name="android:textAppearance">@style/TextAppearance.TriShop.Button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.TriShop.Pill</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Tall primary CTA (sticky Add to Bag / Checkout) — 58dp. -->
+    <style name="Widget.TriShop.Button.Pill.Tall">
+        <item name="android:minHeight">@dimen/cta_height</item>
+    </style>
+
+    <!-- Ghost / outlined pill — neutral border, accent text. -->
+    <style name="Widget.TriShop.Button.Ghost" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/neutral_200</item>
+        <item name="android:textColor">@color/brand_primary</item>
+        <item name="android:textAppearance">@style/TextAppearance.TriShop.Button</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.TriShop.Pill</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.TriShop.Thumb" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_thumb</item>
+    </style>
+
+    <!-- Size-option chip — iOS SizeSelectorView: radius 14, height 46,
+         selected = accent fill + white text, unselected = bordered. -->
+    <style name="Widget.TriShop.Chip.Size" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_variant_bg</item>
+        <item name="android:textColor">@color/chip_variant_text</item>
+        <item name="android:textAppearance">@style/TextAppearance.TriShop.ButtonSmall</item>
+        <item name="chipStrokeColor">@color/glass_border</item>
+        <item name="chipStrokeWidth">1dp</item>
+        <item name="chipMinHeight">@dimen/size_option_height</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.TriShop.Thumb</item>
+    </style>
+
+    <!-- Glass card — iOS GlassView: translucent fill, hairline border, radius 22, no elevation. -->
+    <style name="Widget.TriShop.Card.Glass" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/glass</item>
+        <item name="strokeColor">@color/glass_border</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="cardCornerRadius">@dimen/corner_card</item>
+    </style>
+
+    <!-- Tab dock: iOS has no active-indicator pill behind the icon. -->
+    <style name="Widget.TriShop.Nav.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@android:color/transparent</item>
+    </style>
+
+    <!-- Text fields — iOS FormTextField: translucent glass fill, rounded 16,
+         hairline glass border, accent focus stroke, leading icon. -->
+    <style name="Widget.TriShop.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">@color/glass_strong</item>
+        <item name="boxCornerRadiusTopStart">@dimen/corner_input</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/corner_input</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/corner_input</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/corner_input</item>
+        <item name="boxStrokeColor">@color/til_stroke</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="hintTextColor">@color/brand_primary</item>
+        <item name="startIconTint">@color/neutral_700</item>
+    </style>
+
+</resources>

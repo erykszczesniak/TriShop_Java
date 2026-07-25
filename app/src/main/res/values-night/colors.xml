@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- iOS AppColors.background dark — slate 900. Distinct from the dark card surface. -->
+    <color name="screen_background">#0F172A</color>
+
+    <!-- Glass materials (dark) — iOS AppColors.glass* = low-opacity white over dark blur. -->
+    <color name="glass">#0EFFFFFF</color>
+    <color name="glass_strong">#1AFFFFFF</color>
+    <color name="glass_border">#29FFFFFF</color>
+    <!-- Floating dock fill (dark) — iOS AppColors.dock = slate-900 @ 0.5, bumped for no-blur. -->
+    <color name="dock_fill">#B30F172A</color>
+</resources>

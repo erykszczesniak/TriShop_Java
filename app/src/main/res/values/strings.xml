@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TriShop</string>
+    <string name="home_brand_badge" translatable="false">T3</string>
+    <string name="home_kicker" translatable="false">Swim · Bike · Run</string>
+    <string name="home_featured_badge">FEATURED</string>
+    <string name="home_section_disciplines">Shop by discipline</string>
+    <string name="home_section_new_arrivals">New arrivals</string>
+    <string name="home_section_recently_viewed">Recently viewed</string>
+    <string name="home_product_count">%d products</string>
+    <string name="home_discipline_shop_now">Shop now →</string>
+
+    <!-- Nav -->
+    <string name="nav_shop">Shop</string>
+    <string name="nav_catalog">Catalog</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_cart">Bag</string>
+    <string name="nav_wishlist">Saved</string>
+
+    <!-- Common -->
+    <string name="common_retry">Retry</string>
+    <string name="common_loading">Loading…</string>
+    <string name="common_error_generic">Something went wrong</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_apply">Apply</string>
+    <string name="common_close">Close</string>
+    <string name="common_save">Save</string>
+
+    <!-- Catalog -->
+    <string name="catalog_title">Shop</string>
+    <string name="catalog_all">All</string>
+    <string name="catalog_empty">No products found</string>
+    <string name="catalog_image_desc">Product image</string>
+    <string name="catalog_toggle_layout">Toggle layout</string>
+    <string name="catalog_open_search">Search</string>
+    <string name="catalog_sign_in">Sign in</string>
+
+    <!-- Product detail -->
+    <string name="detail_title">Product</string>
+    <string name="detail_description_header">Description</string>
+    <string name="detail_variants_header">Select Size</string>
+    <string name="detail_show_more">Show more</string>
+    <string name="detail_show_less">Show less</string>
+    <string name="detail_add_to_cart">Add to Bag</string>
+    <string name="detail_add_to_cart_with_price">Add to Bag — %s</string>
+    <string name="detail_added_to_cart">Added %1$s to your cart</string>
+    <string name="detail_select_variant">Pick a variant first</string>
+
+    <!-- Search -->
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search wetsuits, bikes, shoes...</string>
+    <string name="search_recent">Recent Searches</string>
+    <string name="search_empty">No results found</string>
+    <string name="search_empty_subtitle">Try adjusting your search or filters</string>
+    <string name="search_clear_history">Clear history</string>
+
+    <!-- Filter -->
+    <string name="filter_title">Filters</string>
+    <string name="filter_price">Price</string>
+    <string name="filter_sort">Sort by</string>
+    <string name="filter_sort_relevance">Relevance</string>
+    <string name="filter_sort_price_asc">Price: low to high</string>
+    <string name="filter_sort_price_desc">Price: high to low</string>
+    <string name="filter_sort_newest">Newest</string>
+    <string name="filter_clear">Clear</string>
+    <string name="cart_summary_subtotal">Subtotal</string>
+    <string name="cart_summary_discount">Discount</string>
+    <string name="cart_summary_tax">Tax</string>
+    <string name="cart_summary_total">Total</string>
+    <string name="cart_summary_promo_placeholder">PROMO CODE</string>
+    <string name="cart_summary_promo_apply">Apply</string>
+    <string name="cart_summary_promo_remove">Remove</string>
+    <string name="cart_summary_promo_applied">Promo applied!</string>
+    <string name="cart_summary_promo_empty_error">Please enter a promo code</string>
+    <string name="cart_summary_promo_invalid">Invalid promo code</string>
+    <string name="cart_summary_checkout">Proceed to Checkout</string>
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_order_summary">Order Summary</string>
+    <string name="checkout_address_title">Shipping Information</string>
+    <string name="checkout_first_name">First Name</string>
+    <string name="checkout_last_name">Last Name</string>
+    <string name="checkout_email">Email</string>
+    <string name="checkout_address_line">Address</string>
+    <string name="checkout_city">City</string>
+    <string name="checkout_zip">ZIP Code</string>
+    <string name="checkout_shipping">Shipping</string>
+    <string name="checkout_shipping_free">Free</string>
+    <string name="checkout_payment_title">Payment Method</string>
+    <string name="checkout_place_order">Place Order</string>
+    <string name="checkout_error_fill_all">Please fill in all address fields</string>
+    <string name="checkout_error_invalid_email">Please enter a valid email address</string>
+    <string name="checkout_terms_note">By placing your order, you agree to our Terms &amp; Conditions</string>
+    <string name="confirmation_heading">Order Confirmed!</string>
+    <string name="confirmation_subtitle">Thank you for your purchase</string>
+    <string name="confirmation_items">Items</string>
+    <string name="confirmation_payment">Payment</string>
+    <string name="confirmation_payment_card">Credit Card</string>
+    <string name="confirmation_date">Date</string>
+    <string name="confirmation_total_label">Total</string>
+    <string name="orders_download_invoice">Download invoice</string>
+    <string name="order_items_header">Items</string>
+    <string name="order_payment_header">Payment</string>
+    <string name="order_shipping_header">Shipping</string>
+    <string name="order_qty_format">Qty %d</string>
+    <string name="orders_invoice_error">Could not download the invoice. Please try again.</string>
+    <string name="wishlist_add_to_bag">Add to bag</string>
+    <string name="wishlist_share">Share wishlist</string>
+    <string name="wishlist_select_size_first">Choose a size on the product page</string>
+    <string name="profile_club_title">TRISHOP CLUB</string>
+    <string name="profile_club_badge">Member</string>
+    <string name="profile_member_since">Member since %1$s</string>
+    <string name="profile_menu_settings">Settings</string>
+    <string name="profile_menu_help">Help &amp; Support</string>
+    <string name="profile_logout_title">Log Out</string>
+    <string name="profile_logout_message">Are you sure you want to log out?</string>
+    <string name="newsletter_title">Newsletter</string>
+    <string name="newsletter_copy">Get updates on new arrivals and special offers.</string>
+    <string name="newsletter_placeholder">Your email</string>
+    <string name="newsletter_subscribe">Subscribe</string>
+    <string name="newsletter_success">Subscribed!</string>
+    <string name="newsletter_already_subscribed">You are already subscribed.</string>
+    <string name="newsletter_failure">Failed. Try again.</string>
+
+    <!-- Product compare -->
+    <string name="compare_add">Add to compare</string>
+    <string name="compare_remove">Remove from compare</string>
+    <string name="compare_title">Compare</string>
+    <string name="compare_menu">Compare</string>
+    <string name="compare_clear">Clear</string>
+    <string name="compare_empty">Select products to compare. Tap the compare icon on a product card to add it here.</string>
+    <string name="compare_added">Added to compare</string>
+    <string name="compare_removed">Removed from compare</string>
+    <string name="compare_wrong_category">You can only compare products from the same category.</string>
+    <string name="compare_full">You can compare up to %1$d products at a time.</string>
+    <string name="compare_need_more">Select at least 2 products to compare.</string>
+    <string name="compare_spec_brand">Brand</string>
+    <string name="compare_spec_category">Category</string>
+    <string name="compare_spec_price">Price</string>
+    <string name="compare_spec_rating">Rating</string>
+    <string name="compare_spec_availability">Availability</string>
+    <string name="compare_in_stock">In stock</string>
+    <string name="compare_out_of_stock">Out of stock</string>
+    <string name="compare_rating_format">%1$.1f (%2$d reviews)</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="settings_appearance_system">System</string>
+    <string name="settings_appearance_light">Light</string>
+    <string name="settings_appearance_dark">Dark</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_header">Notifications</string>
+    <string name="settings_clear_recent">Clear recently viewed</string>
+    <string name="settings_recent_cleared">Recently viewed cleared</string>
+    <string name="settings_version">Version %1$s</string>
+    <string name="help_title">Help &amp; Support</string>
+    <string name="help_subtitle">Find answers to the most common questions about TriShop.</string>
+    <string name="help_contact">Contact support</string>
+    <string name="help_contact_email" translatable="false">support@trishop.com</string>
+    <string name="help_faq_q1">What payment methods do you accept?</string>
+    <string name="help_faq_a1">We accept Visa, Mastercard, American Express, PayPal, and Apple Pay. All transactions are secured with SSL encryption.</string>
+    <string name="help_faq_q2">How long does shipping take?</string>
+    <string name="help_faq_a2">Standard shipping takes 5-7 business days. Express shipping is available for 2-3 business days. Free shipping on orders over $100.</string>
+    <string name="help_faq_q3">Can I return or exchange an item?</string>
+    <string name="help_faq_a3">Yes! We offer a 30-day return policy. Items must be unused and in original packaging.</string>
+    <string name="help_faq_q4">Do you ship internationally?</string>
+    <string name="help_faq_a4">Currently we ship to the US, Canada, UK, and EU countries. International shipping typically takes 7-14 business days.</string>
+    <string name="help_faq_q5">How do I track my order?</string>
+    <string name="help_faq_a5">Once your order ships, you\'ll receive a tracking number via email. You can also view order status in your account under Orders.</string>
+    <string name="help_faq_q6">What is your warranty policy?</string>
+    <string name="help_faq_a6">All products come with a minimum 1-year manufacturer warranty. Bikes and wetsuits include an extended 2-year warranty through TriShop.</string>
+    <string name="help_faq_q7">Can I cancel or modify my order?</string>
+    <string name="help_faq_a7">Orders can be cancelled or modified within 1 hour of placement. After that, please contact our support team.</string>
+    <string name="help_faq_q8">Do you offer price matching?</string>
+    <string name="help_faq_a8">Yes, we offer price matching on identical items from authorized retailers. Contact us with the competitor\'s listing.</string>
+    <string name="chat_title">TriShop Assistant</string>
+    <string name="chat_subtitle">AI GEAR EXPERT</string>
+    <string name="chat_placeholder">Ask about gear, sizing, races…</string>
+    <string name="chat_greeting">Hi! I\'m your TriShop gear assistant. Ask me about wetsuits, bikes, shoes or race-day fueling.</string>
+    <string name="chat_error_unavailable">The assistant is unavailable right now. Please try again later.</string>
+    <string name="chat_error_rate_limit">You\'re sending messages too fast. Give me a second.</string>
+    <string name="chat_error_network">Network error — check your connection and try again.</string>
+    <string name="chat_open_button">Open assistant</string>
+    <string name="chat_send">Send</string>
+    <string name="offline_banner_message">No internet connection</string>
+    <string name="cart_clear_title">Clear Bag</string>
+    <string name="cart_clear_message">Remove all items from your bag?</string>
+    <string name="detail_out_of_stock">Out of Stock</string>
+    <string name="detail_select_size">Select a Size</string>
+    <string name="detail_added_confirmation">Added ✓</string>
+    <string name="detail_gallery_counter">%1$d / %2$d</string>
+    <string name="detail_swipe_hint">⟵ Swipe ⟶</string>
+    <string name="detail_related_header">You Might Also Like</string>
+    <string name="detail_share">Share</string>
+    <string name="reviews_title">Reviews (%d)</string>
+    <string name="reviews_empty">No reviews yet — be the first to share your race-day experience.</string>
+    <string name="reviews_write">Write a review</string>
+    <string name="reviews_comment_placeholder">How did it perform on race day?</string>
+    <string name="reviews_submit">Submit review</string>
+    <string name="reviews_submit_error">Could not submit the review. Please try again.</string>
+    <string name="reviews_sign_in_prompt">Sign in to write a review</string>
+    <string name="detail_rating_format">%1$.1f (%2$d reviews)</string>
+    <string name="filter_clear_all">CLEAR ALL</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_price_range">Price Range</string>
+    <string name="filter_brand">Brand</string>
+    <string name="filter_apply">Apply Filters</string>
+    <string name="filter_show_more">SHOW %d MORE</string>
+    <string name="filter_show_less">SHOW LESS</string>
+    <string name="filter_sort_top_rated">Top Rated</string>
+
+    <!-- Cart -->
+    <string name="cart_title">Bag</string>
+    <string name="cart_empty">Your bag is empty</string>
+    <string name="cart_empty_subtitle">Browse the shop and add items to your bag</string>
+    <string name="cart_items_count">%d items</string>
+    <string name="cart_item_size">Size %s</string>
+    <string name="cart_qty_decrease">Decrease quantity</string>
+    <string name="cart_qty_increase">Increase quantity</string>
+    <string name="cart_total_label">Total</string>
+    <string name="cart_checkout">Checkout</string>
+    <string name="cart_removed">Removed %1$s</string>
+    <string name="cart_shipping_address_hint">Shipping address</string>
+    <string name="cart_address_required">Enter a shipping address to checkout</string>
+
+    <!-- Order confirmation -->
+    <string name="confirmation_title">Order placed</string>
+    <string name="confirmation_order_number">Order #%1$s</string>
+    <string name="confirmation_total">Total paid: %1$s</string>
+    <string name="confirmation_continue">Continue shopping</string>
+
+    <!-- Auth -->
+    <string name="auth_login_title">Sign in</string>
+    <string name="auth_login_welcome">Welcome back</string>
+    <string name="auth_login_subtitle">Sign in to your account</string>
+    <string name="auth_tagline">Premium Triathlon Gear</string>
+    <string name="auth_or">or</string>
+    <string name="auth_register_title">Register</string>
+    <string name="auth_register_welcome">Create Account</string>
+    <string name="auth_register_subtitle">Join the triathlon community</string>
+    <string name="auth_email">Email</string>
+    <string name="auth_password">Password</string>
+    <string name="auth_password_min">Password (min 8 chars)</string>
+    <string name="auth_name">Full Name</string>
+    <string name="auth_login">Sign In</string>
+    <string name="auth_register">Create Account</string>
+    <string name="auth_no_account_prefix">Don\'t have an account? </string>
+    <string name="auth_sign_up_link">Sign Up</string>
+    <string name="auth_have_account_prefix">Already have an account? </string>
+    <string name="auth_sign_in_link">Sign In</string>
+    <string name="auth_biometric_cta">Sign in with biometrics</string>
+    <string name="auth_biometric_unlock">Unlock with biometrics</string>
+    <string name="auth_biometric_title">Unlock TriShop</string>
+    <string name="auth_biometric_subtitle">Use your fingerprint or face to continue</string>
+    <string name="auth_biometric_unavailable">Biometric auth not available on this device</string>
+    <string name="auth_error_email">Enter a valid email address</string>
+    <string name="auth_error_password">Password must be at least 8 characters</string>
+    <string name="auth_error_name">Please enter your name</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Profile</string>
+    <string name="profile_avatar_desc">Profile picture</string>
+    <string name="profile_avatar_remove">Remove photo</string>
+    <string name="profile_avatar_updated">Photo updated</string>
+    <string name="profile_avatar_removed">Photo removed</string>
+    <string name="profile_avatar_failed">Couldn\'t update photo. Please try again.</string>
+    <string name="profile_avatar_too_large">Image is too large. Please choose one under 5 MB.</string>
+    <string name="profile_my_orders">Order History</string>
+    <string name="profile_logout">Log Out</string>
+    <string name="catalog_open_account">Account</string>
+
+    <!-- Orders -->
+    <string name="orders_title">My orders</string>
+    <string name="orders_empty">No orders yet</string>
+    <string name="orders_empty_subtitle">Your order history will appear here</string>
+    <string name="order_detail_title">Order</string>
+    <string name="order_timeline_header">Delivery timeline</string>
+    <string name="order_status_placed">Pending</string>
+    <string name="order_status_confirmed">Confirmed</string>
+    <string name="order_status_shipped">Shipped</string>
+    <string name="order_status_delivered">Delivered</string>
+
+    <!-- Wishlist -->
+    <string name="wishlist_title">Wishlist</string>
+    <string name="wishlist_empty">Your wishlist is empty</string>
+    <string name="wishlist_empty_subtitle">Tap the heart on any product to save it here</string>
+    <string name="wishlist_remove">Remove from wishlist</string>
+    <string name="wishlist_toggle">Toggle wishlist</string>
+    <string name="wishlist_added">Added to wishlist</string>
+    <string name="wishlist_removed">Removed from wishlist</string>
+
+    <!-- Home -->
+    <string name="home_title">TriShop</string>
+</resources>

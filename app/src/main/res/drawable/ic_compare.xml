@@ -1,0 +1,12 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24"
+    android:tint="?attr/colorOnSurface">
+    <!-- Two side-by-side columns representing a comparison. -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M4,4 h6 a1,1 0 0 1 1,1 v14 a1,1 0 0 1 -1,1 h-6 a1,1 0 0 1 -1,-1 v-14 a1,1 0 0 1 1,-1 Z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M14,4 h6 a1,1 0 0 1 1,1 v14 a1,1 0 0 1 -1,1 h-6 a1,1 0 0 1 -1,-1 v-14 a1,1 0 0 1 1,-1 Z" />
+</vector>
