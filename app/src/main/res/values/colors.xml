@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Accent: iOS AppColors.accent — the brand ORANGE used for filled surfaces
+         (buttons, pills, badges, selected chips, chat bubble). Same in light & dark. -->
+    <color name="accent">#F97316</color>
+
+    <!-- iOS accentForeground: accent used as text/icon/border on regular surfaces.
+         Light uses the web hover shade #EA580C; dark keeps raw orange (see values-night). -->
+    <color name="brand_primary">#EA580C</color>
+    <color name="brand_primary_dark">#9A3412</color>
+    <color name="brand_secondary">#FF5A3C</color>
+    <color name="brand_tertiary">#1CC08A</color>
+
+    <color name="neutral_0">#FFFFFF</color>
+    <color name="neutral_50">#F7F8FA</color>
+    <!-- chipFill (light) / textPrimary (dark) — iOS #F1F5F9 -->
+    <color name="neutral_100">#F1F5F9</color>
+    <!-- separator (light) — iOS #E2E8F0 -->
+    <color name="neutral_200">#E2E8F0</color>
+    <!-- textTertiary (both) — iOS #94A3B8 -->
+    <color name="neutral_400">#94A3B8</color>
+    <!-- textSecondary (light) — iOS #64748B -->
+    <color name="neutral_700">#64748B</color>
+    <!-- textPrimary (light) — iOS #1E293B -->
+    <color name="neutral_900">#1E293B</color>
+
+    <!-- iOS destructive #EF4444 / success #22C55E / warning amber #F59E0B -->
+    <color name="error">#EF4444</color>
+    <color name="success">#22C55E</color>
+    <color name="warning">#F59E0B</color>
+
+    <!-- Screen background under content — iOS AppColors.background (light #F8FAFC),
+         distinct from the white card surface. Dark override in values-night. -->
+    <color name="screen_background">#F8FAFC</color>
+
+    <!-- Glass materials — iOS AppColors.glass* (translucent white over the mesh).
+         Light = high-opacity white (frosted); dark override in values-night. -->
+    <color name="glass">#8CFFFFFF</color>
+    <color name="glass_strong">#B8FFFFFF</color>
+    <color name="glass_border">#D9FFFFFF</color>
+    <!-- Floating dock fill — iOS AppColors.dock. -->
+    <color name="dock_fill">#D9FFFFFF</color>
+
+    <color name="surface_dark">#15171F</color>
+    <color name="surface_dark_variant">#1E2130</color>
+</resources>

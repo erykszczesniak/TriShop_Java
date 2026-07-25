@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base scale — iOS AppSpacing -->
+    <dimen name="spacing_xxs">2dp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_s">8dp</dimen>
+    <dimen name="spacing_m">16dp</dimen>
+    <dimen name="spacing_l">24dp</dimen>
+    <dimen name="spacing_xl">32dp</dimen>
+    <dimen name="spacing_xxl">48dp</dimen>
+
+    <!-- Layout — iOS screenPadding / sectionSpacing / gridGap / cellPadding -->
+    <dimen name="screen_padding">20dp</dimen>
+    <dimen name="section_spacing">22dp</dimen>
+    <dimen name="grid_gap">14dp</dimen>
+    <dimen name="cell_padding">14dp</dimen>
+
+    <!-- Corner radius scale — iOS AppSpacing radius* -->
+    <dimen name="corner_s">8dp</dimen>
+    <dimen name="corner_m">12dp</dimen>
+    <dimen name="corner_l">20dp</dimen>
+    <dimen name="corner_thumb">14dp</dimen>
+    <dimen name="corner_input">16dp</dimen>
+    <dimen name="corner_card">22dp</dimen>
+    <dimen name="corner_club">24dp</dimen>
+    <dimen name="corner_hero">28dp</dimen>
+
+    <!-- Component sizes — iOS AppSpacing -->
+    <dimen name="cta_height">58dp</dimen>
+    <dimen name="button_height">54dp</dimen>
+    <dimen name="chip_height">36dp</dimen>
+    <dimen name="size_option_height">46dp</dimen>
+    <dimen name="list_row_height">54dp</dimen>
+    <dimen name="icon_chip_size">40dp</dimen>
+    <dimen name="hit_target">44dp</dimen>
+
+    <!-- Tab dock — iOS AppSpacing -->
+    <dimen name="dock_height">64dp</dimen>
+    <dimen name="dock_inset">14dp</dimen>
+
+    <dimen name="product_card_image_height">180dp</dimen>
+    <dimen name="product_detail_gallery_height">400dp</dimen>
+    <dimen name="home_banner_height">340dp</dimen>
+    <dimen name="elevation_card">2dp</dimen>
+    <dimen name="stroke_thin">1dp</dimen>
+</resources>

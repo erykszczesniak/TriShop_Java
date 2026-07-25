@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.TriShop" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="android:fontFamily">@font/archivo</item>
+        <item name="fontFamily">@font/archivo</item>
+        <item name="colorOnPrimary">@color/neutral_0</item>
+        <item name="colorPrimaryContainer">#FFEDD5</item>
+        <item name="colorOnPrimaryContainer">@color/brand_primary_dark</item>
+
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="colorOnSecondary">@color/neutral_0</item>
+
+        <item name="colorTertiary">@color/brand_tertiary</item>
+        <item name="colorOnTertiary">@color/neutral_0</item>
+
+        <item name="colorError">@color/error</item>
+
+        <item name="colorSurface">@color/neutral_0</item>
+        <item name="colorOnSurface">@color/neutral_900</item>
+        <item name="colorSurfaceVariant">@color/neutral_100</item>
+        <item name="colorOnSurfaceVariant">@color/neutral_700</item>
+        <item name="colorOutline">@color/neutral_200</item>
+
+        <!-- Screen background under content — iOS AppColors.background, distinct from white cards. -->
+        <item name="android:colorBackground">@color/screen_background</item>
+        <item name="android:windowBackground">@color/screen_background</item>
+
+        <item name="android:statusBarColor">@color/screen_background</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">@color/screen_background</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.TriShop.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.TriShop.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.TriShop.Large</item>
+    </style>
+
+    <style name="ShapeAppearance.TriShop.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_s</item>
+    </style>
+
+    <style name="ShapeAppearance.TriShop.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_m</item>
+    </style>
+
+    <style name="ShapeAppearance.TriShop.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/corner_l</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.TriShop.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="24" android:viewportHeight="24"
+    android:tint="@android:color/white">
+    <!-- Big lower-right sparkle (web SVG, Q quadratics converted to cubic beziers). -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M14.5,7.5 C15.2333,11.4333 17.5667,13.7667 21.5,14.5 C17.5667,15.2333 15.2333,17.5667 14.5,21.5 C13.7667,17.5667 11.4333,15.2333 7.5,14.5 C11.4333,13.7667 13.7667,11.4333 14.5,7.5 Z" />
+    <!-- Small upper-left sparkle. -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M7,2.5 C7.5333,4.9667 9.0333,6.4667 11.5,7 C9.0333,7.5333 7.5333,9.0333 7,11.5 C6.4667,9.0333 4.9667,7.5333 2.5,7 C4.9667,6.4667 6.4667,4.9667 7,2.5 Z" />
+</vector>
