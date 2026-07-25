@@ -17,4 +17,22 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.trishop.app.presentation.auth.LoginFragment"
+        android:label="@string/auth_login_title"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_login_to_register"
+            app:destination="@id/registerFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.trishop.app.presentation.auth.RegisterFragment"
+        android:label="@string/auth_register_title"
+        tools:layout="@layout/fragment_register" />
+
 </navigation>
