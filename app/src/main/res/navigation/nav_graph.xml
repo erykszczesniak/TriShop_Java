@@ -122,4 +122,10 @@
         android:label="@string/profile_menu_settings"
         tools:layout="@layout/fragment_settings" />
 
+    <fragment
+        android:id="@+id/helpSupportFragment"
+        android:name="com.trishop.app.presentation.help.HelpSupportFragment"
+        android:label="@string/help_title"
+        tools:layout="@layout/fragment_help_support" />
+
 </navigation>
