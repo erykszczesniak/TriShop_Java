@@ -10,6 +10,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.navigation.fragment.NavHostFragment;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
@@ -47,6 +48,13 @@ public class CartFragment extends Fragment {
         setupRecycler();
         setupToolbarMenu();
         setupPromo();
+        binding.btnCheckout.setOnClickListener(v -> {
+            Bundle args = new Bundle();
+            args.putString("couponCode", viewModel.getAppliedCouponCode());
+            args.putFloat("discountPercent", (float) viewModel.getAppliedDiscountPercent());
+            NavHostFragment.findNavController(this)
+                    .navigate(R.id.action_cart_to_checkout, args);
+        });
         observeState();
     }
 
