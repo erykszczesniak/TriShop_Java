@@ -104,4 +104,16 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.trishop.app.presentation.wishlist.WishlistFragment"
+        android:label="@string/wishlist_title"
+        tools:layout="@layout/fragment_wishlist">
+
+        <action
+            android:id="@+id/action_wishlist_to_detail"
+            app:destination="@id/productDetailFragment" />
+
+    </fragment>
+
 </navigation>

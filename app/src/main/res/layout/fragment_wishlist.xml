@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/screen_background">
+
+    <com.trishop.app.presentation.common.MeshBackgroundView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:title="@string/wishlist_title"
+        app:titleTextAppearance="@style/TextAppearance.TriShop.Display"
+        app:titleTextColor="?attr/colorOnSurface"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWishlist"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingHorizontal="13dp"
+        android:paddingVertical="@dimen/spacing_s"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/emptyState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@id/rvWishlist"
+        app:layout_constraintBottom_toBottomOf="@id/rvWishlist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="72dp"
+            android:layout_height="72dp"
+            android:src="@drawable/ic_heart_outline"
+            android:contentDescription="@null"
+            android:importantForAccessibility="no"
+            app:tint="@color/neutral_400" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_m"
+            android:text="@string/wishlist_empty"
+            android:textAppearance="@style/TextAppearance.TriShop.Section"
+            android:textColor="?attr/colorOnSurface" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_xs"
+            android:gravity="center"
+            android:text="@string/wishlist_empty_subtitle"
+            android:textAppearance="@style/TextAppearance.TriShop.Body"
+            android:textColor="?attr/colorOnSurfaceVariant" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
