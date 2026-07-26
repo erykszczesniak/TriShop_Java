@@ -53,4 +53,10 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/cartFragment"
+        android:name="com.trishop.app.presentation.cart.CartFragment"
+        android:label="@string/cart_title"
+        tools:layout="@layout/fragment_cart" />
+
 </navigation>
