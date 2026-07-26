@@ -57,6 +57,51 @@
         android:id="@+id/cartFragment"
         android:name="com.trishop.app.presentation.cart.CartFragment"
         android:label="@string/cart_title"
-        tools:layout="@layout/fragment_cart" />
+        tools:layout="@layout/fragment_cart">
+
+        <action
+            android:id="@+id/action_cart_to_checkout"
+            app:destination="@id/checkoutFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/checkoutFragment"
+        android:name="com.trishop.app.presentation.checkout.CheckoutFragment"
+        android:label="@string/checkout_title"
+        tools:layout="@layout/fragment_checkout">
+
+        <argument
+            android:name="couponCode"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="discountPercent"
+            app:argType="float"
+            android:defaultValue="0.0" />
+
+        <action
+            android:id="@+id/action_checkout_to_confirmation"
+            app:destination="@id/orderConfirmationFragment"
+            app:popUpTo="@id/cartFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderConfirmationFragment"
+        android:name="com.trishop.app.presentation.confirmation.OrderConfirmationFragment"
+        android:label="@string/confirmation_title"
+        tools:layout="@layout/fragment_order_confirmation">
+
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+        <argument
+            android:name="total"
+            app:argType="string" />
+
+    </fragment>
 
 </navigation>
