@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_open_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/catalog_open_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_compare"
+        android:icon="@drawable/ic_compare"
+        android:title="@string/compare_menu"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_toggle_layout"
+        android:icon="@drawable/ic_list_view"
+        android:title="@string/catalog_toggle_layout"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sign_in"
+        android:icon="@drawable/ic_person"
+        android:title="@string/catalog_sign_in"
+        app:showAsAction="ifRoom" />
+
+</menu>
