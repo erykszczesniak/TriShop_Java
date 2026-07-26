@@ -116,4 +116,10 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.trishop.app.presentation.settings.SettingsFragment"
+        android:label="@string/profile_menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
 </navigation>
