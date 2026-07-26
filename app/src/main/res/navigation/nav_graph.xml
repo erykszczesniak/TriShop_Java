@@ -128,4 +128,52 @@
         android:label="@string/help_title"
         tools:layout="@layout/fragment_help_support" />
 
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.trishop.app.presentation.profile.ProfileFragment"
+        android:label="@string/profile_title"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/action_profile_to_orders"
+            app:destination="@id/orderHistoryFragment" />
+
+        <action
+            android:id="@+id/action_profile_to_login"
+            app:destination="@id/loginFragment" />
+
+        <action
+            android:id="@+id/action_profile_to_settings"
+            app:destination="@id/settingsFragment" />
+
+        <action
+            android:id="@+id/action_profile_to_help"
+            app:destination="@id/helpSupportFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderHistoryFragment"
+        android:name="com.trishop.app.presentation.profile.orders.OrderHistoryFragment"
+        android:label="@string/orders_title"
+        tools:layout="@layout/fragment_order_history">
+
+        <action
+            android:id="@+id/action_orders_to_order_detail"
+            app:destination="@id/orderDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/orderDetailFragment"
+        android:name="com.trishop.app.presentation.profile.orders.OrderDetailFragment"
+        android:label="@string/order_detail_title"
+        tools:layout="@layout/fragment_order_detail">
+
+        <argument
+            android:name="orderId"
+            app:argType="string" />
+
+    </fragment>
+
 </navigation>
