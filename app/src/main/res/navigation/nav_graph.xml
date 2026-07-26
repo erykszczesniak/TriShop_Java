@@ -41,4 +41,16 @@
         android:label="@string/compare_title"
         tools:layout="@layout/fragment_compare" />
 
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.trishop.app.presentation.search.SearchFragment"
+        android:label="@string/search_title"
+        tools:layout="@layout/fragment_search">
+
+        <action
+            android:id="@+id/action_search_to_detail"
+            app:destination="@id/productDetailFragment" />
+
+    </fragment>
+
 </navigation>
