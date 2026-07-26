@@ -35,4 +35,10 @@
         android:label="@string/auth_register_title"
         tools:layout="@layout/fragment_register" />
 
+    <fragment
+        android:id="@+id/compareFragment"
+        android:name="com.trishop.app.presentation.compare.CompareFragment"
+        android:label="@string/compare_title"
+        tools:layout="@layout/fragment_compare" />
+
 </navigation>
