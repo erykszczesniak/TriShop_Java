@@ -49,7 +49,7 @@ public class OrderConfirmationFragment extends Fragment {
         binding.tvDate.setText(DateFormat.getDateInstance(DateFormat.MEDIUM).format(new Date()));
 
         binding.btnContinue.setOnClickListener(v ->
-                NavHostFragment.findNavController(this).popBackStack(R.id.cartFragment, false));
+                NavHostFragment.findNavController(this).popBackStack(R.id.homeFragment, false));
         binding.btnInvoice.setOnClickListener(v -> viewModel.requestInvoice());
 
         animateCheckmark();
