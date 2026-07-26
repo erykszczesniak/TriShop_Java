@@ -7,6 +7,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
+import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.navigation.NavController;
 import androidx.navigation.NavDestination;
@@ -16,6 +17,11 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.google.android.material.badge.BadgeDrawable;
 import com.trishop.app.R;
 import com.trishop.app.databinding.ActivityMainBinding;
+import com.trishop.app.presentation.chat.ChatBottomSheetFragment;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 import dagger.hilt.android.AndroidEntryPoint;
 
@@ -60,6 +66,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // The assistant FAB floats above the dock on the five tabs plus the auth
+        // screens, mirroring iOS where it stays visible over the login sheet.
+        Set<Integer> fabDestinations = new HashSet<>(Arrays.asList(
+                R.id.homeFragment, R.id.searchFragment, R.id.cartFragment,
+                R.id.wishlistFragment, R.id.profileFragment,
+                R.id.loginFragment, R.id.registerFragment));
         navController.addOnDestinationChangedListener((controller, destination, arguments) -> {
             // Keep the highlighted tab in sync with the current destination.
             Menu menu = binding.bottomNav.getMenu();
@@ -69,6 +81,18 @@ public class MainActivity extends AppCompatActivity {
                     item.setChecked(true);
                 }
             }
+            if (fabDestinations.contains(destination.getId())) {
+                binding.fabChat.show();
+            } else {
+                binding.fabChat.hide();
+            }
+        });
+        binding.fabChat.setOnClickListener(v -> {
+            Fragment host = navHostFragment.getChildFragmentManager()
+                    .getPrimaryNavigationFragment();
+            new ChatBottomSheetFragment().show(
+                    host != null ? host.getChildFragmentManager() : getSupportFragmentManager(),
+                    ChatBottomSheetFragment.TAG);
         });
 
         observeCartBadge();
